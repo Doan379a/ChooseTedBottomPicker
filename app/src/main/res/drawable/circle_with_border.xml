@@ -1,0 +1,17 @@
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+    <!-- Nền bên ngoài viền -->
+    <item>
+        <shape android:shape="oval">
+            <solid android:color="#FF0000" /> <!-- Màu bên ngoài viền -->
+        </shape>
+    </item>
+    <!-- Hình tròn với viền đen -->
+    <item android:left="10dp" android:right="10dp" android:top="10dp" android:bottom="10dp">
+        <shape android:shape="oval">
+            <stroke
+                android:width="2dp"
+                android:color="#000000" /> <!-- Viền màu đen -->
+            <solid android:color="@android:color/transparent" /> <!-- Bên trong không có màu -->
+        </shape>
+    </item>
+</layer-list>
